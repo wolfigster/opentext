@@ -43,7 +43,7 @@ jobs:
         run: npm run generate
 
       - name: Deploy to server
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.2
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.3
         with:
           username: '${{ secrets.USERNAME }}'
           server: '${{ secrets.SERVER_IP }}'
